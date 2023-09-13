@@ -1,0 +1,30 @@
+.header {
+  grid-area: h;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+  color: #FFF;
+  background-color: #1976d2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: 20px;
+
+  .isAuth {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  button {
+    font-weight: bold;
+    color: #FFF;
+    font-family: var(--main-font-family);
+  }
+
+  a {
+    color: #FFF;
+  }
+}

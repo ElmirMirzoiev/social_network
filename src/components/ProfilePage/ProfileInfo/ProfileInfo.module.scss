@@ -1,0 +1,57 @@
+.container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+  .profileInfo {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      border: solid black;
+      border-radius: 10px;
+      width: 250px;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      align-items: center;
+
+      span {
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      input {
+        width: 280px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .preloader {
+    margin: 0 auto;
+    align-content: center;
+
+    img {
+      border: none;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

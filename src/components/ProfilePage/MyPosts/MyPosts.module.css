@@ -1,0 +1,31 @@
+.MyPosts {
+    padding: 20px;
+}
+
+.postItem {
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: #6495ED;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    width: 70px;
+    height: 30px;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.input {
+    border-radius: 10px;
+    width: 360px;
+    height: 130px;
+    border: solid black;
+}

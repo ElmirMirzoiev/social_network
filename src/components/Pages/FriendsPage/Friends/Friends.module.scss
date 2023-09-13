@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  padding: 0 30px;
+  width: 100%;
+
+  .preloader {
+    margin: 50px auto;
+  }
+
+  .friendsList {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    margin: 10px;
+    grid-template-columns: 400px 400px;
+    align-content: center;
+
+    .friendItem {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      font-weight: bold;
+
+      button {
+        margin-top: 5px;
+        align-content: center;
+        width: 90px;
+        height: 20px;
+        background-color: #1976d2;
+        color: #FFFFFF;
+        font-size: smaller;
+      }
+
+      img {
+        padding: 1px;
+        width: 150px;
+        height: 150px;
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+
+      .userName {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+
+      .userStatus {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+      }
+    }
+
+  }
+}

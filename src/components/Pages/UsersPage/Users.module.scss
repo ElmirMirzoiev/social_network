@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .preloader {
+    margin: 50px auto;
+
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    margin-top: 5px;
+    //width: 90px;
+    height: 25px;
+    font-size: smaller;
+    align-content: center;
+  }
+}
+
+
+
+
